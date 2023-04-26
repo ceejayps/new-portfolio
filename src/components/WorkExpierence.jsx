@@ -25,9 +25,7 @@ const WorkExpierence = () => {
                 Application UI code in Tailwind CSS
               </h3>
               <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                Get access to over 20+ pages including a dashboard layout,
-                charts, kanban board, calendar, and pre-order E-commerce &
-                Marketing pages.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, ullam ut. Assumenda, debitis illum repellendus eligendi totam aliquam aut rerum, facere ducimus, deleniti laudantium repudiandae sit quasi consequuntur possimus atque!
               </p>
               <a
                 href="/"
@@ -57,9 +55,7 @@ const WorkExpierence = () => {
                 Marketing UI design in Figma
               </h3>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                All of the pages and components are first designed in Figma and
-                we keep a parity between the two versions even as we update the
-                project.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, tempora id distinctio esse dignissimos cupiditate, quaerat ipsum error quae assumenda a impedit. Laborum ex omnis nam placeat dolor nostrum enim?
               </p>
             </li>
             <li className="ml-4">
@@ -71,8 +67,7 @@ const WorkExpierence = () => {
                 E-Commerce UI code in Tailwind CSS
               </h3>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                Get started with dozens of web components and interactive
-                elements built on top of Tailwind CSS.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro est repellendus laboriosam eligendi, optio quos ex error nobis quisquam, voluptatibus ipsum mollitia, praesentium nihil blanditiis dolore rerum commodi numquam voluptatem.
               </p>
             </li>
           </ol>
