@@ -4,6 +4,7 @@ import Hero from './components/hero';
 import SkillSection from './components/SkillSection';
 import WorkSection from './components/WorkSection';
 import WorkExpierence from './components/WorkExpierence';
+import ContactForm from './components/ContactForm'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <SkillSection/>
       <WorkSection/>
       <WorkExpierence/>
+      <ContactForm/>
       
     </div>
   );
