@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import Nav from "./nav";
 import SocialMedia from "./SocialMedia_header";
-import Category from "./Category_header";
-import Images_header from "./Images_header";
+import Category from "./CategoryHeader";
+import ImagesHeader from "./ImagesHeader";
 import HeaderText from "./HeaderText";
 
 const Hero = () => {
@@ -20,7 +20,7 @@ const Hero = () => {
       <section className="mx-auto pt-8 lg:pt-16 max-w-screen-2xl px-4 md:px-8">
         <div className="mb-8 flex h-[72vh] flex-wrap justify-between md:mb-16">
           <HeaderText onChildData={handleChildData}/>
-          <Images_header index = {childData}/>
+          <ImagesHeader index = {childData}/>
         </div>
         <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
           <Category />
