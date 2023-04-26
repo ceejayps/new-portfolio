@@ -89,7 +89,7 @@ const SkillSection = () => {
         </div>
 
         <div>
-          <h3 className="mb-2 text-lg font-semibold md:text-xl">UNity3D</h3>
+          <h3 className="mb-2 text-lg font-semibold md:text-xl">Unity3D</h3>
           <p className="mb-2 text-gray-500">cross-platform game engine used for developing video games, simulations, and other interactive 2D/3D content.</p>
           <a href="/" className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
         </div>
