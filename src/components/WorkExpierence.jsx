@@ -9,14 +9,14 @@ const WorkExpierence = () => {
             Our competitive advantage
           </h2>
 
-          <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
+          <p className="mx-auto max-w-screen-lg text-center text-gray-500 md:text-lg">
             This is a section of some simple filler text, also known as
             placeholder text. It shares some characteristics of a real written
             text but is random or otherwise generated.
           </p>
         </div>
 
-        <div className="px-10 max-w-3xl mx-auto">
+        <div className="px-10 max-w-xl mx-auto">
           <ol className="relative border-l border-gray-200 dark:border-gray-700 text-left ">
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
