@@ -18,7 +18,7 @@ const Hero = () => {
       </header>
 
       <section className="mx-auto pt-8 lg:pt-16 max-w-screen-2xl px-4 md:px-8">
-        <div className="mb-8 flex h-[72vh] flex-wrap justify-between md:mb-16">
+        <div className="mb-8 flex h-full lg:h-[72vh] flex-wrap justify-between md:mb-16">
           <HeaderText onChildData={handleChildData}/>
           <ImagesHeader index = {childData}/>
         </div>
