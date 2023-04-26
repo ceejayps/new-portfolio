@@ -25,7 +25,7 @@ const TextTypingEffect = (props) => {
 
   return (
     
-      <p>{displayText } Engineer</p>
+      <p className="text-black-800 mb-4 text-xl font-bold sm:text-2xl md:mb-8 md:text-2xl">{displayText } Engineer</p>
    
   );
 };
@@ -45,15 +45,14 @@ const HeaderText = ({onChildData}) => {
     <h1 className="text-black-800 mb-1  font-bold text-5xl md:mb-2 md:text-5xl">
       Chester Johnson
     </h1>
-    <p className="text-black-800 mb-4 text-xl font-bold sm:text-2xl md:mb-8 md:text-2xl">
+    
     <TextTypingEffect  texts={texts} onChildData={onChildData} /> 
-    </p>
+    
 
    
 
     <p className="max-w-md leading-relaxed text-gray-500 xl:text-lg">
-      This is a section of some simple filler text, also known as
-      placeholder text. It shares characteristics of real text.
+   from Jamaica with a track record of impactful solutions using React, Flutter, Node.Js, JavaScript, and Unity3D.
     </p>
   </div>
   )
