@@ -8,7 +8,7 @@ const WorkSection = () => {
       <div className="flex items-center gap-12">
         <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl">Portfolio</h2>
 
-        <p className="hidden max-w-screen-sm text-gray-500 md:block">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text.</p>
+        <p className="hidden max-w-screen-sm text-gray-500 md:block"></p>
       </div>
 
       <a href="#" className="inline-block rounded-lg border bg-white px-4 py-2 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base">More</a>
