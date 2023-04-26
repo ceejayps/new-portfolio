@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import server from '../images/heroImages/server.png'
+import game from '../images/heroImages/games.png'
+import web from '../images/heroImages/web.png'
+import mobile from '../images/heroImages/mobile.png'
+import software from '../images/heroImages/mohammad-rahmani-LrxSl4ZxoRs-unsplash@0.33x.png'
 
 
 const Images_header = ({index}) => {
     const images = [
-        'https://images.unsplash.com/photo-1481487196290-c152efe083f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1924&q=80',
-        'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80',
-        'https://images.unsplash.com/photo-1487014679447-9f8336841d58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2010&q=80',
-        'https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
-        'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1630&q=80',
-        'https://images.unsplash.com/photo-1519211975560-4ca611f5a72a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
-        'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
-
+        software,
+        web,
+        server,
+        mobile,
+        game,
     ]
   return (
     <div className="mb-12 flex  md:mb-16 lg:w-[55%]">
-    
-
     <div className="overflow-hidden rounded-lg bg-gray-100 shadow-lg">
       <img src={images[index]} loading="lazy" alt="Photo by Manny Moreno" className="h-full w-full object-cover object-center" />
     </div>
