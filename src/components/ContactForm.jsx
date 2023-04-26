@@ -17,7 +17,7 @@ const ContactForm = () => {
             </div>
           </div>
           <form className='max-w-xl mx-auto text-left'>
-            <input autocomplete="false" name="hidden" className=' hidden'/>
+            <input autoComplete="false" name="hidden" className=' hidden'/>
             <input name="_redirect" type="hidden" value="#"/>
             <div className="mt-4 space-y-6">
               <div>
@@ -36,7 +36,7 @@ const ContactForm = () => {
                 <label className="block mb-3 text-sm font-medium text-gray-600" name="email">
                   How shall we contact you?
                 </label>
-                <input className="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="email@example.com" autocomplete="off" type="email"/>
+                <input className="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="email@example.com" autoComplete="off" type="email"/>
               </div>
               <div>
                 <div>
