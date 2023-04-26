@@ -29,7 +29,7 @@ const SkillSection = () => {
         <div>
           <h3 className="mb-2 text-lg font-semibold md:text-xl">React.JS</h3>
           <p className="mb-2 text-gray-500">An open-source JavaScript library used for building user interfaces.</p>
-          <a href="#" className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
+          <a href="/" className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
         </div>
       </div>
    
@@ -41,7 +41,7 @@ const SkillSection = () => {
         <div>
           <h3 className="mb-2 text-lg font-semibold md:text-xl">Node.JS</h3>
           <p className="mb-2 text-gray-500">An open-source, cross-platform JavaScript runtime environment. It allows developers to run JavaScript code outside of a web browser and on a server-side environment.</p>
-          <a href="#" className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
+          <a href="/" className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
         </div>
       </div>
    
@@ -55,7 +55,7 @@ const SkillSection = () => {
           <p className="mb-2 text-gray-500">An open-source web application framework for Node.js. It provides a set of features and tools for building web applications and APIs with Node.js, and is known for its simplicity, flexibility, and scalability.
 
 </p>
-          <a href="#" className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
+          <a href="/" className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
         </div>
       </div>
       
@@ -67,7 +67,7 @@ const SkillSection = () => {
         <div>
           <h3 className="mb-2 text-lg font-semibold md:text-xl">Tailwind CSS</h3>
           <p className="mb-2 text-gray-500">A utility-first CSS framework that provides a set of pre-defined CSS classes that you can use to quickly and easily style your HTML elements.</p>
-          <a href="#" className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
+          <a href="/" className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
         </div>
       </div>
      
@@ -79,7 +79,7 @@ const SkillSection = () => {
         <div>
           <h3 className="mb-2 text-lg font-semibold md:text-xl">Flutter</h3>
           <p className="mb-2 text-gray-500">An open-source mobile application development framework created by Google. It allows developers to build high-performance, native mobile applications for iOS and Android using a single codebase.</p>
-          <a href="#" className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
+          <a href="/" className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
         </div>
       </div>
   
@@ -91,7 +91,7 @@ const SkillSection = () => {
         <div>
           <h3 className="mb-2 text-lg font-semibold md:text-xl">UNity3D</h3>
           <p className="mb-2 text-gray-500">cross-platform game engine used for developing video games, simulations, and other interactive 2D/3D content.</p>
-          <a href="#" className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
+          <a href="/" className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
         </div>
       </div>
     
