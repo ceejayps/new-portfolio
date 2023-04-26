@@ -42,10 +42,10 @@ const HeaderText = ({onChildData}) => {
 
   return (
     <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pt-48 lg:pb-24">
-    <h1 className="text-black-800 mb-1 text-2xl font-bold sm:text-5xl md:mb-2 md:text-5xl">
+    <h1 className="text-black-800 mb-1  font-bold text-5xl md:mb-2 md:text-5xl">
       Chester Johnson
     </h1>
-    <p className="text-black-800 mb-4 text-xl font-bold sm:text-xl md:mb-8 md:text-2xl">
+    <p className="text-black-800 mb-4 text-xl font-bold sm:text-2xl md:mb-8 md:text-2xl">
     <TextTypingEffect  texts={texts} onChildData={onChildData} /> 
     </p>
 
