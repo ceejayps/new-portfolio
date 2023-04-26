@@ -21,7 +21,7 @@ const TextTypingEffect = (props) => {
     }, 100);
     
     return () => clearInterval(intervalId);
-  }, [currentTextIndex, props.texts]);
+  }, [currentTextIndex, props]);
 
   return (
     
