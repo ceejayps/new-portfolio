@@ -51,7 +51,7 @@ const HeaderText = ({onChildData}) => {
 
    
 
-    <p className="max-w-md leading-relaxed text-gray-500 xl:text-lg">
+    <p className="max-w-md mx-auto leading-relaxed text-center  text-gray-500 xl:text-lg">
    from Jamaica with a track record of impactful solutions using React, Flutter, Node.Js, JavaScript, and Unity3D.
     </p>
   </div>
