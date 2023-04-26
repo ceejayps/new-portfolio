@@ -2,7 +2,7 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div className=' fixed top-0  z-[99999]  px-10 flex h-16 bg-slate-600 w-screen justify-between items-center text-slate-300'>
+    <div className=' fixed top-0  z-[99999] backdrop-blur-2xl px-10 flex h-16 bg-white/80 w-screen justify-between items-center text-slate-900'>
         <div>
             <h1>LOGO</h1>
         </div>
