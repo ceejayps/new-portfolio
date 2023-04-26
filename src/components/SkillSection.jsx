@@ -1,6 +1,8 @@
 import React from "react";
 import flutter from "../images/Asset 1.png"
 import unity from '../images/unity.png'
+import express from '../images/express.png'
+import tailwind from '../images/tailwind.png'
 
 const SkillSection = () => {
   return (
@@ -10,9 +12,9 @@ const SkillSection = () => {
   <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
 
     <div className="mb-10 md:mb-16">
-      <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Our competitive advantage</h2>
+      <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Few Skills I picked up along the way.</h2>
 
-      <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.</p>
+      <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">Through years of studying, working, and practicing, I have achieved proficiency in the following.</p>
     </div>
    
 
@@ -45,7 +47,7 @@ const SkillSection = () => {
    
       <div className="flex gap-4 md:gap-6">
         <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
-          <img src={flutter} className="h-6 " alt="" />
+          <img src={express} className="h-3 " alt="" />
         </div>
 
         <div>
@@ -57,7 +59,7 @@ const SkillSection = () => {
       
       <div className="flex gap-4 md:gap-6">
         <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
-        <img src={unity} className="h-6 " alt="" />
+        <img src={tailwind} className="h-6 " alt="" />
         </div>
 
         <div>
