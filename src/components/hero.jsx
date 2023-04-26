@@ -19,7 +19,7 @@ const Hero = () => {
 
       <section className="mx-auto pt-8 lg:pt-16 max-w-screen-2xl px-4 md:px-8">
         <div className="mb-8 flex h-[72vh] flex-wrap justify-between md:mb-16">
-          <HeaderText onChildData={setChildData}/>
+          <HeaderText onChildData={handleChildData}/>
           <Images_header index = {childData}/>
         </div>
         <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
