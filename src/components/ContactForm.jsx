@@ -24,19 +24,19 @@ const ContactForm = () => {
                 <label className="block mb-3 text-sm font-medium text-gray-600" name="name">
                   First name
                 </label>
-                <input className="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="Your name"/>
+                <input required className="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="Your name"/>
               </div>
               <div className="col-span-full">
                 <label className="block mb-3 text-sm font-medium text-gray-600" name="company">
                   What is the name of your company / organisation?
                 </label>
-                <input className="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="Company name"/>
+                <input  className="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="Company name"/>
               </div>
               <div className="col-span-full">
                 <label className="block mb-3 text-sm font-medium text-gray-600" name="email">
                   How shall we contact you?
                 </label>
-                <input className="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="email@example.com" autoComplete="off" type="email"/>
+                <input required className="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="email@example.com" autoComplete="on" type="email"/>
               </div>
               <div>
                 <div>
@@ -44,7 +44,7 @@ const ContactForm = () => {
                     Project details
                   </label>
                   <div className="mt-1">
-                    <textarea className="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="What are you working on?" rows="4"></textarea>
+                    <textarea required className="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm" placeholder="What are you working on?" rows="4"></textarea>
                   </div>
                 </div>
               </div>
