@@ -3,7 +3,7 @@ import chester from '../images/chester.jpg'
 
 const About = () => {
   return (
-    <section id='About'>
+    <section id='About' className='scroll-mt-[50px]'>
   <div
     className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8"
   >
