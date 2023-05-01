@@ -18,7 +18,7 @@ const SkillSection = () => {
     </div>
    
 
-    <div className="grid gap-8 sm:grid-cols-2 md:gap-12 max-w-3xl mx-auto text-left xl:grid-cols-2 xl:gap-16">
+    <div className="grid gap-4 sm:grid-cols-2 md:gap-4 max-w-3xl mx-auto text-left xl:grid-cols-2 xl:gap-4">
 
       <div className="flex gap-4 md:gap-6">
         <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
