@@ -16,11 +16,16 @@ const Hero = () => {
       <header className="mb-8 border-b">
         <Nav />
       </header>
+     
+      
 
       <section className="mx-auto pt-8 lg:pt-16 max-w-screen-2xl px-4 md:px-8">
         <div className="mb-8 flex h-full lg:h-[72vh] flex-wrap justify-between md:mb-16">
           <HeaderText onChildData={handleChildData}/>
           <ImagesHeader index = {childData}/>
+        </div>
+        <div className=" cursor-pointer rounded-3xl w-28 h-12  lg:w-40 lg:h-12 bg-slate-900  justify-center items-center text-slate-300 duration-200  border-2 border-black  inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none focus-visible:outline-black text-sm focus-visible:ring-black">
+          <p className=" font-bold text4xl">Hire Me</p>
         </div>
         <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
           <Category />
