@@ -24,9 +24,7 @@ const Hero = () => {
           <HeaderText onChildData={handleChildData}/>
           <ImagesHeader index = {childData}/>
         </div>
-        <div className=" md:hidden  cursor-pointer rounded-3xl w-28 h-12  lg:w-40 lg:h-12 bg-slate-900  justify-center items-center text-slate-300 duration-200  border-2 border-black  inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none focus-visible:outline-black text-sm focus-visible:ring-black">
-          <p className=" font-bold text4xl">Hire Me</p>
-        </div>
+       
         <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
           <Category />
           <SocialMedia />
