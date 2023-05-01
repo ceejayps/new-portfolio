@@ -6,7 +6,7 @@ import tailwind from '../images/tailwind.png'
 
 const SkillSection = () => {
   return (
-    <section id='Skills'>
+    <section id='Skills' className="scroll-mt-[50px]">
 
 <div className="bg-white py-6 sm:py-8 lg:py-12">
   <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
