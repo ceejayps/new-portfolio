@@ -2,7 +2,7 @@ import React from "react";
 
 const WorkExpierence = () => {
   return (
-    <div className="bg-white py-6 sm:py-8 lg:py-12">
+    <div id="WorkHistory" className="bg-white py-6 sm:py-8 lg:py-12">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         <div className="mb-10 md:mb-16">
           <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
@@ -19,16 +19,39 @@ const WorkExpierence = () => {
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
               <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                June 2022 - January 2023
+                July 2022 - January 2023
               </time>
               <h3 className="text-lg font-semibold  dark:text-gray-900">
               vertis Tech 
               </h3>
               <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, ullam ut. Assumenda, debitis illum repellendus eligendi totam aliquam aut rerum, facere ducimus, deleniti laudantium repudiandae sit quasi consequuntur possimus atque!
-              </p>
+              fullstack Software Engineer using node.js, React.js, Redux and Typescript
+</p>
+            
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                December 2021 - June 2022
+              </time>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-900">
+                Bingo Denz
+              </h3>
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+              Software Engineer using node.js, React.js, Redux, Typescript Unity3D, express and MongoDB</p>
+            </li>
+            <li className="ml-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                April 2020 - june 2022
+              </time>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-900">
+                Genr83D
+              </h3>
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+              worked on projects for clients using React, Firebase, Typescript, Redux, and Css</p>
               <a
-                href="/"
+                href="https://www.linkedin.com/in/chester-johnson/"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
               >
                 Learn more{" "}
@@ -45,30 +68,7 @@ const WorkExpierence = () => {
                   ></path>
                 </svg>
               </a>
-            </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                March 2022
-              </time>
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-900">
-                Marketing UI design in Figma
-              </h3>
-              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, tempora id distinctio esse dignissimos cupiditate, quaerat ipsum error quae assumenda a impedit. Laborum ex omnis nam placeat dolor nostrum enim?
-              </p>
-            </li>
-            <li className="ml-4">
-              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                April 2022
-              </time>
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-900">
-                E-Commerce UI code in Tailwind CSS
-              </h3>
-              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro est repellendus laboriosam eligendi, optio quos ex error nobis quisquam, voluptatibus ipsum mollitia, praesentium nihil blanditiis dolore rerum commodi numquam voluptatem.
-              </p>
+
             </li>
           </ol>
         </div>
