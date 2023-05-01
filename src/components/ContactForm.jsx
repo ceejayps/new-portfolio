@@ -16,7 +16,7 @@ const ContactForm = () => {
               </p>
             </div>
           </div>
-          <form className='max-w-xl mx-auto text-left'>
+          <form className='max-w-xl mx-auto text-left' onSubmit={(e)=>{ e.preventDefault(); console.log(e.target)}}>
             <input autoComplete="false" name="hidden" className=' hidden'/>
             <input name="_redirect" type="hidden" value="#"/>
             <div className="mt-4 space-y-6">
