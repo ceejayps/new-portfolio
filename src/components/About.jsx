@@ -12,7 +12,7 @@ const About = () => {
         className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full"
       >
         <img
-          alt="photo of chester johnson"
+          alt="chester johnson"
           src={chester}
           className="absolute inset-0 h-full w-full object-cover"
         />
