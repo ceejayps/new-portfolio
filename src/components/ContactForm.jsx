@@ -2,6 +2,8 @@ import React, { useRef, useEffect, useState } from "react";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../utilities/FirebaseConfig";
 
+
+
 const ContactForm = () => {
   const [seconds, setSeconds] = useState(0);
   const [isSuccess, setIsSuccess] = useState(false);
@@ -44,6 +46,8 @@ const ContactForm = () => {
       Email: email,
       org: org,
       Details: details,
+      date: new Intl.DateTimeFormat('en-US', {year: 'numeric', month: '2-digit',day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit'}).format(Date.now()),
+      createdAt:Date.now()
     })
       .then((docRef) => {
         console.log("Document written with ID: ", docRef.id);
@@ -66,7 +70,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section id="Contact" className="">
+    <section id="Contact" className=" scroll-mt-[50px]">
       {isSuccess && (
         <div className="fixed z-[999999] inset-x-0 bottom-0 p-4">
           <div className="rounded-lg bg-green-600 px-4 py-3 text-white shadow-lg">
