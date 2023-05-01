@@ -2,8 +2,19 @@ import React,{useState} from "react";
 
 
 
+
 const Nav = () => {
     const [isOpen, setisopen] = useState(false)
+
+    const downloadFile = () => {
+        const url = '/resume.pdf';
+        const link = document.createElement("a");
+        link.href = url;
+        link.setAttribute("download", "Chester's Resume.pdf");
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      };
   const localId = window.location.hash.substring(1);
   return (
     <>
@@ -132,8 +143,8 @@ const Nav = () => {
           </a>
         </ul>
 
-        <div className=" cursor-pointer rounded-3xl w-28 h-12  lg:w-40 lg:h-12 bg-slate-900  justify-center items-center text-slate-300 duration-200  border-2 border-black  inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none focus-visible:outline-black text-sm focus-visible:ring-black">
-          <p className=" font-bold text4xl">Hire Me</p>
+        <div onClick={downloadFile} className=" cursor-pointer rounded-3xl w-28 h-12  lg:w-40 lg:h-12 bg-slate-900  justify-center items-center text-slate-300 duration-200  border-2 border-black  inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none focus-visible:outline-black text-sm focus-visible:ring-black">
+          <p className=" font-bold text4xl">Download CV</p>
         </div>
       </div>
 
