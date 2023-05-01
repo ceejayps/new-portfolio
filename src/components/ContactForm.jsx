@@ -3,7 +3,7 @@ import React from 'react'
 const ContactForm = () => {
   return (
     
-    <section>
+    <section id='Contact' className=''>
     <div className="relative flex justify-center max-h-full overflow-hidden lg:px-0 md:px-12">
       <div className="relative z-10 flex flex-col flex-1 px-4 py-10 bg-white  lg:py-24 md:flex-none md:px-28 sm:justify-center">
         <div className="w-full max-w-4xl mx-auto md:max-w-4xl md:px-0  sm:px-4">
