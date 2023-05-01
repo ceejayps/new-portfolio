@@ -6,13 +6,13 @@ const Footer = () => {
   <footer className="mx-auto max-w-screen-2xl px-4 md:px-8">
     <div className="flex flex-col items-center border-t pt-6">
   
-      <nav className="mb-4 flex flex-wrap justify-center gap-x-4 gap-y-2 md:justify-start md:gap-6">
+      {/* <nav className="mb-4 flex flex-wrap justify-center gap-x-4 gap-y-2 md:justify-start md:gap-6">
         <a href="/" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">About</a>
         <a href="/" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Investor Relations</a>
         <a href="/" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Jobs</a>
         <a href="/" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Press</a>
         <a href="/" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Blog</a>
-      </nav>
+      </nav> */}
      
       <div className="flex gap-4">
         <a href="/" target="_blank" className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
