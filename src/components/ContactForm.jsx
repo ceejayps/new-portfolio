@@ -2,30 +2,25 @@ import React, { useRef, useEffect, useState } from "react";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../utilities/FirebaseConfig";
 
-
-
 const ContactForm = () => {
   const [seconds, setSeconds] = useState(0);
   const [isSuccess, setIsSuccess] = useState(false);
   const [isFailure, setIsFailure] = useState(false);
-  
+
   useEffect(() => {
     const intervalId = setInterval(() => {
       setSeconds((prevSeconds) => prevSeconds - 1);
     }, 1000);
-  
+
     return () => clearInterval(intervalId);
   }, []);
-  
+
   useEffect(() => {
     if (seconds === 0) {
       setIsSuccess(false);
-      setIsFailure(false)
+      setIsFailure(false);
     }
-    
   }, [seconds]);
-
-
 
   const nameRef = useRef(null);
   const emailRef = useRef(null);
@@ -41,6 +36,9 @@ const ContactForm = () => {
     console.log(
       `Name: ${name}, Email: ${email}, Org:${org}, Details: ${details}`
     );
+    try {
+      
+    
     await addDoc(collection(db, "websiteMessages"), {
       Name: name,
       Email: email,
@@ -53,30 +51,45 @@ const ContactForm = () => {
         emailRef.current.value = "";
         orgRef.current.value = "";
         detailsRef.current.value = "";
-        setSeconds(20)
+        setSeconds(20);
         setIsSuccess(true);
       })
       .catch((error) => {
         console.error("Error adding document: ", error);
-        setIsFailure(true)
-      });
+        setIsFailure(true);
+        setSeconds(20);
+      });} catch (error) {
+        console.error("Error adding document: ", error);
+        setIsFailure(true);
+        setSeconds(20);
+      }
   };
 
   return (
+    <section id="Contact" className="">
+      {isSuccess && (
+        <div className="fixed z-[999999] inset-x-0 bottom-0 p-4">
+          <div className="rounded-lg bg-green-600 px-4 py-3 text-white shadow-lg">
+            <p className="text-center text-sm font-medium">
+              Thanks for Reaching out, I'll get back to you shortly. also check
+              out my{" "}
+              <a href="https://www.linkedin.com/in/chester-johnson/" className="inline-block underline">
+                LinkedIn
+              </a>
+            </p>
+          </div>
+        </div>
+      )}
 
-
-    <section id="Contact"  className="">
-        {isSuccess && (<div className="fixed z-[999999] inset-x-0 bottom-0 p-4">
-  <div className="rounded-lg bg-green-600 px-4 py-3 text-white shadow-lg">
-    <p className="text-center text-sm font-medium">
-    Thanks for Reaching out, I'll get back to you shortly. also check out my {" "}
-      <a href="" className="inline-block underline">
-        LinkedIn
-      </a>
-    </p>
-  </div>
-</div>)}
-
+{isFailure && (
+        <div className="fixed z-[999999] inset-x-0 bottom-0 p-4">
+          <div className="rounded-lg bg-red-700 px-4 py-3 text-white shadow-lg">
+            <p className="text-center text-sm font-medium">
+              OH NO!! There seems to be an issue, please try again later
+            </p>
+          </div>
+        </div>
+      )}
 
       <div className="flex relative justify-center max-h-full overflow-hidden lg:px-0 md:px-12">
         <div className=" relative flex flex-col flex-1 px-4 py-10 bg-white z-10  lg:py-24 md:flex-none md:px-28 sm:justify-center">
